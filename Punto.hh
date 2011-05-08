@@ -5,7 +5,10 @@ class Punto {
 		double Z;
 		double M;
 		
-		public:	
+		public:
+		//per lista concatenata
+		Punto* next;
+	
 		//costruttori
 		Punto(); 
 		Punto(double x, double y, double m);
