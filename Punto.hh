@@ -1,28 +1,34 @@
+#ifndef PUNTO_HH_
+#define PUNTO_HH_
+#include <iostream>
+using namespace std;
+
 class Punto {
 	
+private:
 		double X;
 		double Y;
 		double Z;
-		double M;
 		
-		public:
-		//per lista concatenata
-		Punto* next;
+		
+public:
+		
 	
 		//costruttori
 		Punto(); 
-		Punto(double x, double y, double m);
-		Punto(double x, double y, double z, double m);
+		Punto(double x, double y);
+		Punto(double x, double y, double z);
 		//distruttore
 		~Punto();
-		double getx(){return X;};
-		double gety(){return Y;};
-		double getz(){return Z;};
-		double getm(){return M;};
+		double x(){return X;};
+		double y(){return Y;};
+		double z(){return Z;};
 		
-		void setthings(double x, double y, double z, double m);	
 		double distance_0();
 		double distancefrom(Punto& p);
-		void centrodimassa(Punto *p, int n);
+	
+		friend ostream& operator<<(ostream& o, Punto& p);
+		
 		};
 	
+#endif
