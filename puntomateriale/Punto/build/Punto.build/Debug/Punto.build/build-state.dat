@@ -1,0 +1,127 @@
+TPunto
+v7
+r0
+t326564052.835659
+cCheck dependencies
+cCompileC build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto.o /Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/fededambri/C++/puntomateriale/Punto/build/Debug/Punto normal x86_64
+
+N/Users/fededambri/C++/puntomateriale/Punto.cc
+c000000004DC6BED1000000000000037F
+t1304870609
+s895
+i"Punto.hh"
+i<cmath>
+
+N/Users/fededambri/C++/puntomateriale/Punto.hh
+c000000004DC6BBD3000000000000021B
+t1304869843
+s539
+
+N/Users/fededambri/C++/puntomateriale/Punto/../Punto.cc
+c000000004DC6BED1000000000000037F
+t1304870609
+s895
+i"Punto.hh"
+i<cmath>
+
+N/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp
+c000000004DC6C15100000000000003D7
+t1304871249
+s983
+i<iostream>
+i"Punto.cc"
+i<fstream>
+
+N/Users/fededambri/C++/puntomateriale/Punto/build/Debug/Punto
+t1304871252
+s18064
+
+N/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto-7C75BC5CD3EBE33A.o
+t1304870897
+s12196
+
+N/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto-F4F71B870563F33B.o
+t2
+s0
+
+N/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto.LinkFileList
+c000000004DC6C0C9000000000000006D
+t1304871113
+s109
+
+N/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto.o
+t1304871249
+s91536
+
+N/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/fededambri/C++/puntomateriale/Punto/main.cpp
+c000000004DC6BB7E000000000000008F
+t1304869758
+s143
+i<iostream>
+
+N/Volumes/Scatolanera/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326564051#326564051#0(0"0(0#1#0"8621757504#0"0#
+
+CCompileC build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto-7C75BC5CD3EBE33A.o /Users/fededambri/C++/puntomateriale/Punto/../Punto.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+s326563697.403061
+e326563697.542368
+r1
+xCompileC
+xbuild/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto-7C75BC5CD3EBE33A.o
+x/Users/fededambri/C++/puntomateriale/Punto/../Punto.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/fededambri/C++/puntomateriale/Punto/../Punto.cc326563697#326563697#0(0"0(0#0#54"/Users/fededambri/C++/puntomateriale/Punto/../Punto.cc8389772143087597568#1360"    cd /Users/fededambri/C++/puntomateriale/Punto    setenv LANG en_US.US-ASCII    /Volumes/Scatolanera/Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Scatolanera/Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-generated-files.hmap -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-own-target-headers.hmap -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-all-target-headers.hmap -iquote /Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-project-headers.hmap -F/Users/fededambri/C++/puntomateriale/Punto/build/Debug -I/Users/fededambri/C++/puntomateriale/Punto/build/Debug/include -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/DerivedSources/x86_64 -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/DerivedSources -c /Users/fededambri/C++/puntomateriale/Punto/../Punto.cc -o /Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto-7C75BC5CD3EBE33A.o0#
+
+CCompileC build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto-F4F71B870563F33B.o /Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s326563850.668214
+e326563850.669507
+r0
+xCompileC
+xbuild/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto-F4F71B870563F33B.o
+x/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp326563850#326563850#0(635"/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp: In function 'int main()':/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp:46: error: request for member 'getx' in 'cm', which is of non-class type 'Punto*'/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp:46: error: request for member 'gety' in 'cm', which is of non-class type 'Punto*'/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp:46: error: request for member 'getz' in 'cm', which is of non-class type 'Punto*'/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp:47: error: request for member 'getm' in 'cm', which is of non-class type 'Punto*'4(4@70"Request for member 'getx' in 'cm', which is of non-class type 'Punto*'326563850#83#138#0(6@55"/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp326563849#46#0#46#0#0"0(4@70"Request for member 'gety' in 'cm', which is of non-class type 'Punto*'326563850#221#138#0(6@55"/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp326563849#46#0#46#0#0"0(4@70"Request for member 'getz' in 'cm', which is of non-class type 'Punto*'326563850#359#138#0(6@55"/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp326563849#46#0#46#0#0"0(4@70"Request for member 'getm' in 'cm', which is of non-class type 'Punto*'326563850#497#138#0(6@55"/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp326563849#47#0#47#0#0"0(0#0#55"/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp8622153376#1361"    cd /Users/fededambri/C++/puntomateriale/Punto    setenv LANG en_US.US-ASCII    /Volumes/Scatolanera/Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Scatolanera/Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-generated-files.hmap -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-own-target-headers.hmap -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-all-target-headers.hmap -iquote /Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-project-headers.hmap -F/Users/fededambri/C++/puntomateriale/Punto/build/Debug -I/Users/fededambri/C++/puntomateriale/Punto/build/Debug/include -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/DerivedSources/x86_64 -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/DerivedSources -c /Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp -o /Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto-F4F71B870563F33B.o1#
+
+CCompileC build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto.o /Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s326564051.862893
+e326564051.863866
+r1
+xCompileC
+xbuild/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto.o
+x/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp326564051#326564051#0(0"0(0#0#55"/Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp8620326976#1344"    cd /Users/fededambri/C++/puntomateriale/Punto    setenv LANG en_US.US-ASCII    /Volumes/Scatolanera/Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Scatolanera/Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-generated-files.hmap -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-own-target-headers.hmap -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-all-target-headers.hmap -iquote /Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Punto-project-headers.hmap -F/Users/fededambri/C++/puntomateriale/Punto/build/Debug -I/Users/fededambri/C++/puntomateriale/Punto/build/Debug/include -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/DerivedSources/x86_64 -I/Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/DerivedSources -c /Users/fededambri/C++/puntomateriale/Punto/../Punto.cpp -o /Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto.o0#
+
+CCompileC build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/main.o /Users/fededambri/C++/puntomateriale/Punto/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CLd /Users/fededambri/C++/puntomateriale/Punto/build/Debug/Punto normal x86_64
+s326564051.863923
+e326564052.835610
+r1
+xLd
+x/Users/fededambri/C++/puntomateriale/Punto/build/Debug/Punto
+xnormal
+xx86_64
+lSLF07#2@65"Link /Users/fededambri/C++/puntomateriale/Punto/build/Debug/Punto326564051#326564052#0(0"0(0#0#0"8620054944#550"    cd /Users/fededambri/C++/puntomateriale/Punto    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Volumes/Scatolanera/Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Volumes/Scatolanera/Developer/SDKs/MacOSX10.6.sdk -L/Users/fededambri/C++/puntomateriale/Punto/build/Debug -F/Users/fededambri/C++/puntomateriale/Punto/build/Debug -filelist /Users/fededambri/C++/puntomateriale/Punto/build/Punto.build/Debug/Punto.build/Objects-normal/x86_64/Punto.LinkFileList -mmacosx-version-min=10.6 -o /Users/fededambri/C++/puntomateriale/Punto/build/Debug/Punto0#
+
