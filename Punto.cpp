@@ -27,7 +27,7 @@ int main() {
 	
 	cout<<"Centro di massa: "<<cm<<"."<<endl;
 	
-	delete [] punti; //eliminiamo l'array dinamico
+	delete punti[max]; //eliminiamo l'array dinamico
 	
 	return 0;
 	
