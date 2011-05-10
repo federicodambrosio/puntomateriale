@@ -9,8 +9,6 @@
 #ifndef PUNTOMAT_CC_
 #define PUNTOMAT_CC_
 #include "puntomat.hh"
-#include "Punto.cc"
-#include "Punto.hh"
 #include <iostream>
 
 Puntomat::Puntomat(){
@@ -18,14 +16,12 @@ Puntomat::Puntomat(){
 	M=0;
 }
 
-Puntomat::Puntomat(double x,double y,double m){
-	Punto(x,y);
-	M=m;
+Puntomat::Puntomat(double x,double y,double m) : Punto(x,y){
+    M=m;
 }
 
-Puntomat::Puntomat(double x,double y, double z,double m){
-	Punto(x,y,z);
-	M=m;
+Puntomat::Puntomat(double x,double y, double z,double m) : Punto(x,y,z) {
+    M=m;
 }
 
 Puntomat operator+(Puntomat& p, Puntomat& q){

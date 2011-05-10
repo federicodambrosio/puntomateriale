@@ -1,5 +1,4 @@
 #include <iostream>
-#include "Punto.cc"
 #include "puntomat.cc"
 #include <fstream>
 
@@ -14,20 +13,21 @@ int main() {
 		//i è la grandezza dell'array -1, ovvero massimo indice
 	}
 	
-	Puntomat* punti[max];	//inizializza array dinamico
+	//Puntomat* punti[max];	//inizializza array dinamico
 	
 	ifstream ifile("punti_mat.dat"); 
 	Puntomat cm;
 	for(int j=0;j<=max;j++) { //riempiamo l'array
 		ifile>>x>>y>>z>>m;
-		punti[j]=new Puntomat(x,y,z,m);
-		cm=cm+punti[j];
+        Puntomat p(x,y,z,m);
+		//punti[j]=new Puntomat(x,y,z,m);
+		cm=cm+p;
 	}
 	
 	
 	cout<<"Centro di massa: "<<cm<<"."<<endl;
 	
-	delete punti[max]; //eliminiamo l'array dinamico
+	//delete punti[max]; //eliminiamo l'array dinamico
 	
 	return 0;
 	

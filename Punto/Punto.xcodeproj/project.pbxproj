@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A03849A01376F31800D51817 /* Punto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A038499D1376F31800D51817 /* Punto.cpp */; };
-		A0D274DF137821920052BCC0 /* puntomat.cc in Sources */ = {isa = PBXBuildFile; fileRef = A0D274DD137821920052BCC0 /* puntomat.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +27,7 @@
 		A038499C1376F31800D51817 /* Punto.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Punto.cc; path = ../Punto.cc; sourceTree = "<group>"; };
 		A038499D1376F31800D51817 /* Punto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Punto.cpp; path = ../Punto.cpp; sourceTree = "<group>"; };
 		A038499E1376F31800D51817 /* Punto.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Punto.hh; path = ../Punto.hh; sourceTree = "<group>"; };
+		A0AB87CF1379B6FF00107F73 /* punti_mat.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = punti_mat.dat; sourceTree = "<group>"; };
 		A0D274DD137821920052BCC0 /* puntomat.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = puntomat.cc; path = ../puntomat.cc; sourceTree = SOURCE_ROOT; };
 		A0D274DE137821920052BCC0 /* puntomat.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = puntomat.hh; path = ../puntomat.hh; sourceTree = SOURCE_ROOT; };
 		C6859E8B029090EE04C91782 /* Punto.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Punto.1; sourceTree = "<group>"; };
@@ -47,6 +47,7 @@
 		08FB7794FE84155DC02AAC07 /* Punto */ = {
 			isa = PBXGroup;
 			children = (
+				A0AB87CF1379B6FF00107F73 /* punti_mat.dat */,
 				A0D274DD137821920052BCC0 /* puntomat.cc */,
 				A0D274DE137821920052BCC0 /* puntomat.hh */,
 				A038499E1376F31800D51817 /* Punto.hh */,
@@ -133,7 +134,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03849A01376F31800D51817 /* Punto.cpp in Sources */,
-				A0D274DF137821920052BCC0 /* puntomat.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
