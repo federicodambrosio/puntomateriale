@@ -24,9 +24,9 @@
 
 /* Begin PBXFileReference section */
 		8DD76F6C0486A84900D96B5E /* Punto */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Punto; sourceTree = BUILT_PRODUCTS_DIR; };
-		A038499C1376F31800D51817 /* Punto.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Punto.cc; path = ../Punto.cc; sourceTree = "<group>"; };
-		A038499D1376F31800D51817 /* Punto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Punto.cpp; path = ../Punto.cpp; sourceTree = "<group>"; };
-		A038499E1376F31800D51817 /* Punto.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Punto.hh; path = ../Punto.hh; sourceTree = "<group>"; };
+		A038499C1376F31800D51817 /* Punto.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Punto.cc; path = "/Users/fededambri/C++/puntomateriale/Punto.cc"; sourceTree = "<absolute>"; };
+		A038499D1376F31800D51817 /* Punto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Punto.cpp; path = "/Users/fededambri/C++/puntomateriale/Punto.cpp"; sourceTree = "<absolute>"; };
+		A038499E1376F31800D51817 /* Punto.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Punto.hh; path = "/Users/fededambri/C++/puntomateriale/Punto.hh"; sourceTree = "<absolute>"; };
 		A0AB87CF1379B6FF00107F73 /* punti_mat.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = punti_mat.dat; sourceTree = "<group>"; };
 		A0D274DD137821920052BCC0 /* puntomat.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = puntomat.cc; path = ../puntomat.cc; sourceTree = SOURCE_ROOT; };
 		A0D274DE137821920052BCC0 /* puntomat.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = puntomat.hh; path = ../puntomat.hh; sourceTree = SOURCE_ROOT; };
@@ -48,11 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				A0AB87CF1379B6FF00107F73 /* punti_mat.dat */,
-				A0D274DD137821920052BCC0 /* puntomat.cc */,
-				A0D274DE137821920052BCC0 /* puntomat.hh */,
-				A038499E1376F31800D51817 /* Punto.hh */,
-				A038499C1376F31800D51817 /* Punto.cc */,
-				A038499D1376F31800D51817 /* Punto.cpp */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6859E8C029090F304C91782 /* Documentation */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
@@ -63,6 +58,11 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A0D274DD137821920052BCC0 /* puntomat.cc */,
+				A0D274DE137821920052BCC0 /* puntomat.hh */,
+				A038499E1376F31800D51817 /* Punto.hh */,
+				A038499C1376F31800D51817 /* Punto.cc */,
+				A038499D1376F31800D51817 /* Punto.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
